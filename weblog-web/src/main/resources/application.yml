@@ -1,0 +1,10 @@
+spring:
+  profiles:
+    #默认激活dev环境；注意active和dev之间有一个空格
+    active: dev
+
+  #jackson:
+    #设置后台反参，若字段为 null ，则不进行返回
+   # default-property-inclusion: non_null
+    #设置日期字段格式
+   # date-format: yyyy-MM-dd HH:mm:ss
